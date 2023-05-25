@@ -1,0 +1,46 @@
+<?php 
+// $alumnos=["Gabriel","Marco","Marcos","Facundo","Braian","Bruno","Ignacio","Giancarlo","Mateo","Leandro","Enmanuel","Debora","Ricardo","Romina","Dana"];
+// foreach($alumnos as $alumno) echo '- '.$alumno.'<br>';
+
+
+
+$canciones=["OMG","Dame","Goteo","Solo","Midtown","Ghost","Girasol","Vuelta a la Luna","Tsunami"];
+$genero=["Trap","Pop","Trap","Pop","Reggaeton-Nightcore","Pop","Cristiana","Trap","Electronica"];
+
+echo '<h1>Álbum de Canciones</h1>';
+foreach($canciones as $can) echo $can.' | ';
+echo '<br>';
+
+if ($_POST) {
+    $usuario=$_POST['usuario'];
+    $cancion=$_POST['cancion'];
+
+    for($i=0;$i<count($canciones);$i++) { 
+        if ($cancion == $canciones[$i]) {
+            echo "La música seleccionada por el usuario es ".$cancion." - ".$genero[$i].": ".$usuario;
+        }
+    }
+}
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum</title>
+</head>
+<body>
+    <form action="ejercicio10.php" method="post">
+        Usuario:
+    <br><input type="text" name="usuario" id="">
+    <br>
+        Nombre de la cancion:
+    <br><input type="text" name="cancion" id="">
+    <br>
+
+    <input type="submit" value="Enviar">
+</body>
+</html>
