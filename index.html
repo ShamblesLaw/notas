@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="idivcoint">
+        <h1>Realizar Pedido</h1>
+        <label for="cliente">Cliente:</label>
+        <input type="text" id="cliente" required><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" required><br>
+        <label for="hamburguesa">Hamburguesa:</label>
+        <select id="hamburguesa">
+            <option value="Bella Burger">Bella Burger</option>
+            <option value="Bella Doble">Bella Doble</option>
+            <option value="Bella Pollo">Bella Pollo</option>
+            <option value="Super Bella">Super Bella</option>
+            <option value="Bella Vegan">Bella Vegan</option>
+        </select><br>
+        <button id="agregarPedido">Agregar Pedido</button>
+
+        <h1>Pedidos Pendientes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Hamburguesa</th>
+                    <th>Dirección</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="pedidosPendientes">
+                
+            </tbody>
+        </table>
+        <button id="limpiarPedidos">Limpiar Pedidos</button>
+
+        <script src="code.js"></script>
+    </div>
+</body>
+</html>
+
+   
