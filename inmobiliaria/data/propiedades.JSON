@@ -1,0 +1,11 @@
+[{"id": 1, "tipo": "Terreno", "operacion": "Venta", "dormitorios": "", "img": "img/alondras-1.jpg","precio": 3500000 ,"detalle": "Terreno en country 400 mt2, zona residencial"},
+ {"id": 2, "tipo": "Casa", "operacion": "Alquiler", "dormitorios": "2", "img": "img/auad-2.png","precio": 8700000 , "detalle": "Hermosa casa, 2 dormitorios, 2 baños, galeria asador"},
+ {"id": 3, "tipo": "Casa", "operacion": "Venta", "dormitorios": "3", "img": "img/casa1-3.png", "precio": 15500000 ,  "detalle": "Casa imponente, 230 mts2, todas las comodidades "},
+ {"id": 4, "tipo": "Casa", "operacion": "Venta", "dormitorios": "3", "img": "img/casa2-4.jpg", "precio": 14250000 , "detalle": "Casa imponente, 205 mts2, todas las comodidades"},
+ {"id": 5, "tipo": "casa", "operacion": "Venta", "dormitorios": "4", "img": "img/corrientes-5.jpg",  "precio": 17400000 , "detalle": "Casa esquina 4 dormitorios, enorme 350 mts cubiertos"},
+ {"id": 6, "tipo": "casa", "operacion": "Alquiler", "dormitorios": "2", "img": "img/abel-6.jpg", "precio": 9425000 , "detalle": "Duplex 2 dormitorios, excelente calidad, en barrio privado "},
+ {"id": 7, "tipo": "casa", "operacion": "Venta", "dormitorios": "3", "img": "img/juan-7.jpg","precio": 21750000 , "detalle": "Casa en corazon de la ciudad excelente"},
+ {"id": 8, "tipo": "casa", "operacion": "Venta", "dormitorios": "3", "img": "img/mellizas-8.jpg", "precio": 8700000 , "detalle": "hermosa casa 3 d"},
+ {"id": 9, "tipo": "casa", "operacion": "Venta", "dormitorios": "3", "img": "img/mukdise-9.jpg", "precio": 11600000 ,"detalle": "Casa lujosa con vestidor, 3 dorm, 2 plantas, hermosa"},
+ {"id": 10, "tipo": "Terreno", "operacion": "Venta", "dormitorios": "1", "img": "img/plaza-10.jpg","precio": 1950000 ,  "detalle": "Terreno en barrio privado 280 mt2 economico"},
+ {"id": 11, "tipo": "casa", "operacion": "Construccion", "dormitorios": "2", "img": "img/papa-11.jpg", "precio": 8700000 ,"detalle": "Construccion llave en mano, materiales de primera categoria"}]

@@ -1,0 +1,211 @@
+/*IMPORTANDO LA FUENTE DEL PROYECTO*/
+
+@font-face {
+  font-family: OpenSansCustom;
+  src: url(fonts/opensans/OpenSansCondensed-Bold.ttf);
+}
+
+
+/* estilos generales*/
+* {
+  text-decoration: none;
+  font-family: OpenSansCustom;
+  margin: 0px;
+  padding: 0px;
+}
+
+ 
+/*ESTILOS DEL CONTAINER*/
+
+
+#contenedorPrincipal{
+background-image: url("img/mansion2.jpg");
+height: 932px;
+margin: -15px;
+} 
+
+.container-fluid{
+  box-shadow: 0px 0px 10px #ccc;
+  /*min-height: 80vh;*/
+  background-color: #c0c0c0;
+ /* background-color: #f0e2d0;*/
+}
+
+
+/*CABECERA*/
+
+.img_logo{
+ 
+  width: 100px;
+  margin-left: 6px;
+  position: absolute;
+  margin-top: 6px;
+
+  
+}
+
+.img_logo_index{
+      width: 100px;
+      margin-left: 22px;
+      position: absolute;
+      margin-top: 21px;
+}
+
+
+/*BARRA NAVEGACION*/
+
+#menu_index_index{
+  position: relative;
+    list-style: none;
+    top: 40px;
+    left: 460px;
+    
+}
+
+#menu_index_index a{
+  
+  color: rgba(255, 255, 255, 0.685);
+
+}
+
+.menu{
+  top: -20px;
+    left: 240px;
+}
+
+#menu_principal{
+  background-color: RGB(192, 192, 192);
+  height: 120px;
+  border-bottom: 1px solid grey;
+}
+
+
+#menu_index{
+  background-color: RGB(192, 192, 192);
+  list-style: none;
+  margin-top: 48px;
+}
+
+a{
+  font-family: OpenSansCustom;
+  text-decoration: none;
+  color:#00000098;
+ /* color: rgb(138, 112, 90);*/
+  font-size: 25px;
+  list-style: none;
+}
+
+a:hover {
+  color: #aa8976;
+}
+
+
+
+
+/* FOOTER*/
+
+#pAutor{
+  margin-left: 445px;
+  /*text-align: center;*/
+}
+
+
+#footer .info {
+  flex-grow: 1;
+  order: 2;
+  margin-left: 20px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#footer_index{
+  background-color: #444443;
+  color: #f0e2d0;
+
+}
+
+
+#footer_index img{
+  width: 40px;}
+
+
+footer h3 {
+  color: #aa8976;
+  font-size: 20px;
+}
+
+footer h5{
+  font-size: 17px;
+
+}
+
+#footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  height: 120px;
+  align-items: center;
+  box-shadow: 0px 0px 10px #ccc;
+  background: linear-gradient(to right, #6fe7c3, #c6ebc9);
+  margin-top: 30px;
+  color: #aa8976;
+  border: 1px solid #c6ebc9;
+}
+
+
+
+
+#comboOperacion, #comboPropiedad, #comboDormitorios, #botonBuscar{
+  position: absolute;
+    width: 150px;
+    height: 33px;
+}
+
+
+#comboOperacion {
+  top: 250px;
+  left: 226px;
+  width: 201px;
+}
+
+#comboPropiedad {
+  top: 250px;
+  left: 429px;
+  width: 225px;
+}
+
+
+#comboDormitorios{
+  top: 250px;
+  left: 659px;
+}
+#botonBuscar{
+  top: 250px;
+  left: 960px;
+}
+
+#tituloFiltro{
+  text-transform: none;
+  position: relative;
+  top: 217px;
+  left: -260px;  
+}
+
+#displayIndex{
+  border: 1px solid black;
+  margin: 20px; 
+  padding: 0px;
+}
+
+#displayIndex ul{
+  margin-left: 20px;
+
+}
+
+
+p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  margin-left: 30px;
+}
+

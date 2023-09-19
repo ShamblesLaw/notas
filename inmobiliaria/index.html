@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inmobiliaria BU SRL</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <main id="contenedorPrincipal" class="row">
+        <ul id="menu_index_index" class="menu ">
+          <li class="col">
+            <a href="index.html" class="aIndex"> INICIO</a>
+          </li>
+          <li class="col">
+            <a href="emprendimientos.html" class="aIndex">
+              EMPRENDIMIENTOS</a
+            >
+          </li>
+          <li class="col">
+            <a href="nosotros.html" class="aIndex"> NOSOTROS </a>
+          </li>
+          <li class="col" class="linkContacto">
+            <a href="contacto.html" class="aIndex"> CONTACTO</a>
+          </li>
+        </ul>
+        <img
+          class="img_logo_index"
+          src="img/logo.png"
+          alt="logo de la constructora"
+        />
+
+        <div id="combos">
+          <h5 id="tituloFiltro">
+            Ingrese una opcion para filtrar propiedades...
+          </h5>
+
+          <select id="comboOperacion">
+            <option value="" disabled selected>
+              Filtrar por tipo de operacion
+            </option>
+            <option value="Alquiler">Alquiler</option>
+            <option value="Venta">Venta</option>
+            <option value="Construccion">Construccion</option>
+          </select>
+
+          <select id="comboPropiedad">
+            <option value="" disabled selected>
+              Filtrar por tipo de propiedad
+            </option>
+            <option value="Casa">Casa</option>
+            <option value="Terreno">Terreno</option>
+            <option value="Terreno en pozo">Terreno en pozo</option>
+            <option value="Departamento">Departamento</option>
+          </select>
+          <select id="comboDormitorios">
+            <option value="" disabled selected>
+              Filtrar por numeros de dormitorios
+            </option>
+            <option value="1">Un dormitorio</option>
+            <option value="2">Dos dormitorios</option>
+            <option value="3">Tres dormitorios</option>
+            <option value="4">Mas de 3 dormitorios</option>
+          </select>
+        </div>
+
+        <table id="tablaPropiedades">
+          <thead>
+            <tr>
+                <th>id</th>
+                <th>Tipo</th>
+                <th>Operacion</th>
+                <th>Dormitorios</th>
+                <th>img</th>
+                <th>precio</th>
+                <th>detalle</th>
+            </tr>
+        </thead>
+        <tbody id="propiedadesListado">
+            
+        </tbody>
+        </table>
+      </main>
+
+      <div id="contenedorFiltros"></div>
+
+      <footer id="footer_index" class="row">
+        <div class="col-6">
+          <h3>Acerca de Nosotros:</h3>
+          <h5>Inmobiliaria BU SRL</h5>
+          <h5>Direccion: Artigas y Pedro Acosta-</h5>
+          <h5>Teléfono: 099503017</h5>
+          <h5>Email: inmobiliariabusrl@gmail.com</h5>
+          <hr />
+        </div>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
